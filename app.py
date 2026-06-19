@@ -132,7 +132,7 @@ async def EncRypTMajoRLoGin(open_id, access_token):
     major_login.channel_type = 3
     major_login.cpu_type = 2
     major_login.cpu_architecture = "64"
-    major_login.client_version_code = "2019118695"
+    major_login.client_version_code = "2019116753"
     major_login.graphics_api = "OpenGLES2"
     major_login.supported_astc_bitset = 16383
     major_login.login_open_id_type = 4
@@ -928,9 +928,9 @@ async def MaiiiinE():
     global loop, key, iv, region, BOT_UID
 
     # BOT LOGIN UID
-    BOT_UID = int('14104678630')  # <-- FIXED BOT UID
+    BOT_UID = int('14103533739')  # <-- FIXED BOT UID
 
-    Uid, Pw = '4338446011', 'CKR_7FBNJ__48ISU'
+    Uid, Pw = '4338213062', 'CKR_YK8MZ__2PFHX'
 
     open_id, access_token = await GeNeRaTeAccEss(Uid, Pw)
     if not open_id or not access_token:
